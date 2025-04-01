@@ -1,0 +1,93 @@
+body {
+
+  font-family: Arial, sans-serif;
+
+  background-color: #f4f4f4;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 100vh;
+
+  margin: 0;
+
+}
+
+
+.App {
+
+  background: white;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  width: 400px;
+
+  text-align: center;
+
+}
+
+
+.add-course {
+
+  display: flex;
+
+  gap: 10px;
+
+  margin-bottom: 20px;
+
+}
+
+
+.add-course input {
+
+  flex: 1;
+
+  padding: 8px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+
+}
+
+
+.add-course button {
+
+  background: #28a745;
+
+  color: white;
+
+  border: none;
+
+  padding: 8px 12px;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+
+}
+
+
+.add-course button:hover {
+
+  background: #218838;
+
+}
+
+
+.list {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+
+}
